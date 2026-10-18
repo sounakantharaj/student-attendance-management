@@ -17,7 +17,6 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Run automated tests
               - name: Run automated tests
         run: |
           cd tests
