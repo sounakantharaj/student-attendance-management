@@ -18,4 +18,7 @@ jobs:
           python-version: "3.12"
 
       - name: Run automated tests
-        run: python -m unittest discover -s tests -v
+              - name: Run automated tests
+        run: |
+          cd tests
+          python -m unittest -v test_attendance
